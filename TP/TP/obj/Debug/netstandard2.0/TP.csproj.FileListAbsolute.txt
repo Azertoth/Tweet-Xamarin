@@ -1,0 +1,14 @@
+D:\Workspace - Xamarin\TP\TP\TP\bin\Debug\netstandard2.0\TP.deps.json
+D:\Workspace - Xamarin\TP\TP\TP\bin\Debug\netstandard2.0\TP.dll
+D:\Workspace - Xamarin\TP\TP\TP\bin\Debug\netstandard2.0\ref\TP.dll
+D:\Workspace - Xamarin\TP\TP\TP\bin\Debug\netstandard2.0\TP.pdb
+D:\Workspace - Xamarin\TP\TP\TP\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Workspace - Xamarin\TP\TP\TP\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Workspace - Xamarin\TP\TP\TP\obj\Debug\netstandard2.0\TP.AssemblyInfoInputs.cache
+D:\Workspace - Xamarin\TP\TP\TP\obj\Debug\netstandard2.0\TP.AssemblyInfo.cs
+D:\Workspace - Xamarin\TP\TP\TP\obj\Debug\netstandard2.0\TP.csproj.CoreCompileInputs.cache
+D:\Workspace - Xamarin\TP\TP\TP\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Workspace - Xamarin\TP\TP\TP\obj\Debug\netstandard2.0\TP.dll
+D:\Workspace - Xamarin\TP\TP\TP\obj\Debug\netstandard2.0\ref\TP.dll
+D:\Workspace - Xamarin\TP\TP\TP\obj\Debug\netstandard2.0\TP.pdb
+D:\Workspace - Xamarin\TP\TP\TP\obj\Debug\netstandard2.0\TP.csprojAssemblyReference.cache

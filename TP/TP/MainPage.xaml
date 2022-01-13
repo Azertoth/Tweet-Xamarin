@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TP.MainPage"
+             Title="test">
+
+    <StackLayout>
+        <!-- Header -->
+        <StackLayout Orientation="Horizontal" BackgroundColor="#58b0f0" Padding="20" >
+            <!-- 3 élements -->
+            <Image Source="pencil.png" Aspect="AspectFill" HorizontalOptions="StartAndExpand"/>
+            <Label Text="Accueil" VerticalTextAlignment="Center" FontSize="20" TextColor="white" HorizontalOptions="Center"/>
+            <Image Source="search.png" Aspect="AspectFit" HorizontalOptions="EndAndExpand"/>
+        </StackLayout>
+        
+        <!-- Formulaire de connexion -->
+        <StackLayout x:Name="form">
+            <Label Text="Connexion à Tweeter" HorizontalOptions="CenterAndExpand"/>
+            <Entry Placeholder="Identifiant Tweeter" Text="" x:Name="ident"/>
+            <Entry Placeholder="Mot de passe" Text="" IsPassword="True" x:Name="password"/>
+            <StackLayout Orientation="Horizontal">
+                <Switch IsToggled="True"/>
+                <Label Text="Mémoriser mes informations" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+
+            <Label Text="" x:Name="error" />
+            <Button Text="Connexion" Clicked="confirm"/>
+            
+        </StackLayout>
+        <!-- Body -->
+        <ScrollView  VerticalOptions="FillAndExpand" Margin="0, 10" >
+            <StackLayout x:Name="tweet" IsVisible="false">
+            <!-- 1er tweet -->
+            <StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout Margin="10">
+                        <BoxView BackgroundColor="Black" VerticalOptions="FillAndExpand"/>
+                    </StackLayout>
+                    <StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="Cedric @cedricmillauriaux" HorizontalOptions="StartAndExpand"/>
+                            <Label Text="50s" TextColor="Gray" HorizontalOptions="End"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non ex sit amet enim placerat rhoncus. Maecenas ut pretium risus, ac dapibus diam. Mauris finibus egestas est nec tempus."
+                                   />
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Padding="20">
+                    <Image Source="reply.png" Aspect="AspectFit" HorizontalOptions="StartAndExpand" />
+                    <Image Source="retweet.png" Aspect="AspectFit" HorizontalOptions="Center"/>
+                    <Image Source="favorite.png" Aspect="AspectFit" HorizontalOptions="EndAndExpand"/>
+                </StackLayout>
+            </StackLayout>
+            </StackLayout>
+        </ScrollView>
+        
+        <!-- Footer -->
+        <StackLayout Orientation="Horizontal" VerticalOptions="End" Padding="20">
+            <!-- 4 élements -->
+            <Label Text="Fil" TextColor="Aqua" HorizontalOptions="StartAndExpand"/>
+            <Label Text="Notification" HorizontalOptions="CenterAndExpand" />
+            <Label Text="Messages" HorizontalOptions="CenterAndExpand" />
+            <Label Text="Moi" HorizontalOptions="EndAndExpand" />
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
